@@ -11,10 +11,10 @@ var users = require('./routes/users');
 var app = express();
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'ngo.aguaisolutions.com',
-  user     : 'aguaivgq_ngo',
-  password : 'Welc0me!23',
-  database: 'aguaivgq_ngo'
+  host     : 'host',
+  user     : 'user',
+  password : 'password',
+  database: 'db'
 });
 connection.connect(function(err) {
   if (err) throw err
